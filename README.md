@@ -21,9 +21,12 @@
 ![Input Image](GeneratedVisualisations/Input.jpeg)
 ## Detected QR Codes
 ![Detected QR Codes](GeneratedVisualisations/DetectedQRCodes.jpeg)
+
 ## QR Codes Data
  - QR Code 1
+
    ![QR Code Data 1](GeneratedVisualisations/QRCodeData1.jpeg)
+
    ```python
    {
       "type": "QRCODE",
@@ -31,7 +34,9 @@
    }
    ```
  - QR Code 2
+
    ![QR Code Data 2](GeneratedVisualisations/QRCodeData2.jpeg)
+   
    ```python
    {
       "type": "QRCODE",
