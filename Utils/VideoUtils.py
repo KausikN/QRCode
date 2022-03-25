@@ -3,12 +3,7 @@ Library for basic video functions
 '''
 
 # Imports
-import os
 import cv2
-from PIL import Image
-import numpy as np
-import matplotlib.pyplot as plt
-from tqdm import tqdm
 
 from .VideoInputs import *
 

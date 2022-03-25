@@ -6,7 +6,6 @@ Video Input Modes
 import cv2
 import numpy as np
 import requests
-import imutils
 
 # Main Classes
 class VideoInput:

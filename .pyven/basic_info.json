@@ -1,14 +1,10 @@
 {
     "repo_name": "QRCode",
     "requirements": [
-        "imutils==0.5.4",
-        "matplotlib==3.4.3",
         "numpy==1.21",
         "opencv_python==4.5.4.58",
-        "Pillow==9.0.1",
         "pyzbar==0.1.8",
         "requests==2.26.0",
-        "streamlit==1.8.0",
-        "tqdm==4.62.3"
+        "streamlit==1.8.0"
     ]
 }
