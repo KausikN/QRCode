@@ -1,0 +1,181 @@
+{
+    "name": "QRCode",
+    "repoLink": "https://github.com/KausikN/QRCode",
+    "localPath": "E:/Github Codes and Projects/Projects/QRCode",
+    "modules": {
+        "app.py": {
+            "name": "app",
+            "type": "local",
+            "link": "https://github.com/KausikN/QRCode/blob/master/app.py",
+            "parentDir": "E:/Github Codes and Projects/Projects/QRCode",
+            "subDir": "",
+            "dependencies": [
+                "os.py",
+                "streamlit.py",
+                "json.py",
+                "functools.py",
+                "*.py"
+            ]
+        },
+        "QRCode.py": {
+            "name": "QRCode",
+            "type": "local",
+            "link": "https://github.com/KausikN/QRCode/blob/master/QRCode.py",
+            "parentDir": "E:/Github Codes and Projects/Projects/QRCode",
+            "subDir": "",
+            "dependencies": [
+                "cv2.py",
+                "matplotlib/pyplot.py",
+                "numpy.py",
+                "decode.py",
+                "*.py"
+            ]
+        },
+        "Utils/Utils.py": {
+            "name": "Utils",
+            "type": "local",
+            "link": "https://github.com/KausikN/QRCode/blob/master/Utils/Utils.py",
+            "parentDir": "E:/Github Codes and Projects/Projects/QRCode",
+            "subDir": "Utils",
+            "dependencies": [
+                "cv2.py",
+                "numpy.py",
+                "matplotlib/pyplot.py",
+                "*.py"
+            ]
+        },
+        "Utils/VideoInputs.py": {
+            "name": "VideoInputs",
+            "type": "local",
+            "link": "https://github.com/KausikN/QRCode/blob/master/Utils/VideoInputs.py",
+            "parentDir": "E:/Github Codes and Projects/Projects/QRCode",
+            "subDir": "Utils",
+            "dependencies": [
+                "cv2.py",
+                "numpy.py",
+                "requests.py",
+                "imutils.py"
+            ]
+        },
+        "Utils/VideoUtils.py": {
+            "name": "VideoUtils",
+            "type": "local",
+            "link": "https://github.com/KausikN/QRCode/blob/master/Utils/VideoUtils.py",
+            "parentDir": "E:/Github Codes and Projects/Projects/QRCode",
+            "subDir": "Utils",
+            "dependencies": [
+                "os.py",
+                "cv2.py",
+                "numpy.py",
+                "matplotlib/pyplot.py",
+                "Image.py",
+                "tqdm.py",
+                "*.py"
+            ]
+        },
+        "imutils.py": {
+            "name": "imutils",
+            "type": "missing",
+            "link": "",
+            "parentDir": "",
+            "subDir": "",
+            "dependencies": []
+        },
+        "decode.py": {
+            "name": "decode",
+            "type": "missing",
+            "link": "",
+            "parentDir": "",
+            "subDir": "",
+            "dependencies": []
+        },
+        "Image.py": {
+            "name": "Image",
+            "type": "missing",
+            "link": "",
+            "parentDir": "",
+            "subDir": "",
+            "dependencies": []
+        },
+        "*.py": {
+            "name": "*",
+            "type": "missing",
+            "link": "",
+            "parentDir": "",
+            "subDir": "",
+            "dependencies": []
+        },
+        "numpy.py": {
+            "name": "numpy",
+            "type": "missing",
+            "link": "",
+            "parentDir": "",
+            "subDir": "",
+            "dependencies": []
+        },
+        "tqdm.py": {
+            "name": "tqdm",
+            "type": "missing",
+            "link": "",
+            "parentDir": "",
+            "subDir": "",
+            "dependencies": []
+        },
+        "os.py": {
+            "name": "os",
+            "type": "missing",
+            "link": "",
+            "parentDir": "",
+            "subDir": "",
+            "dependencies": []
+        },
+        "json.py": {
+            "name": "json",
+            "type": "inbuilt",
+            "link": "",
+            "parentDir": "E:/Github Codes and Projects/Projects/QRCode",
+            "subDir": "",
+            "dependencies": []
+        },
+        "functools.py": {
+            "name": "functools",
+            "type": "missing",
+            "link": "",
+            "parentDir": "",
+            "subDir": "",
+            "dependencies": []
+        },
+        "cv2.py": {
+            "name": "cv2",
+            "type": "missing",
+            "link": "",
+            "parentDir": "",
+            "subDir": "",
+            "dependencies": []
+        },
+        "streamlit.py": {
+            "name": "streamlit",
+            "type": "missing",
+            "link": "",
+            "parentDir": "",
+            "subDir": "",
+            "dependencies": []
+        },
+        "requests.py": {
+            "name": "requests",
+            "type": "missing",
+            "link": "",
+            "parentDir": "",
+            "subDir": "",
+            "dependencies": []
+        },
+        "matplotlib/pyplot.py": {
+            "name": "pyplot",
+            "type": "inbuilt",
+            "link": "",
+            "parentDir": "E:/Github Codes and Projects/Projects/QRCode",
+            "subDir": "matplotlib",
+            "dependencies": []
+        }
+    }
+}
