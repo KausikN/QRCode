@@ -15,3 +15,26 @@
     - Then go ahead and use the app! :)
 
     - If you want to change to another app, simply click on View Other Projects in top left and choose any other project and load and deploy.
+
+# QR Code Decoder
+## Input Image
+![Input Image](GeneratedVisualisations/Input.jpeg)
+## Detected QR Codes
+![Detected QR Codes](GeneratedVisualisations/DetectedQRCodes.jpeg)
+## QR Codes Data
+ - QR Code 1
+   ![QR Code Data 1](GeneratedVisualisations/QRCodeData1.jpeg)
+   ```python
+   {
+      "type": "QRCODE",
+      "data": "Head number for matrix identification: 265212457859665514AAFF454fd"
+   }
+   ```
+ - QR Code 2
+   ![QR Code Data 2](GeneratedVisualisations/QRCodeData2.jpeg)
+   ```python
+   {
+      "type": "QRCODE",
+      "data": "Head number for matrix identification: 265212457859665514AAFF454fd"
+   }
+   ```
