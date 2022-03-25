@@ -103,6 +103,8 @@ def UI_GetVisParams():
 
     # LIMIT
     params["LIMIT"] = st.sidebar.number_input("Max QR Codes Limit", 1, 10, 1, 1)
+    # displayObj
+    params["displayObj"] = None
 
     return USERINPUT_DISPLAYS, params
 
@@ -142,8 +144,8 @@ def UI_LoadVideo():
 
 def UI_DisplayQRData(I, qrDatas, **params):
     # Sort
-    qrDatas_sorted = [x for _, x in sorted(zip([q["data"] for q in qrDatas], qrDatas), reverse=True)]
-    qrDatas = qrDatas_sorted
+    qrDatas_sortOrder = np.argsort([len(q["data"]) for q in qrDatas])
+    qrDatas = [qrDatas[i] for i in qrDatas_sortOrder]
     # Only display top LIMIT QR Codes
     LIMIT = params["LIMIT"]
     qrDatas = qrDatas[:LIMIT]
